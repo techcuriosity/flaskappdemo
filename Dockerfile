@@ -5,7 +5,7 @@ FROM python:3.10
 WORKDIR /code
 
 # copy the dependancies to the working DIR in the container
-# The "requirements.txt" will contain all the dependancies
+# The "requirements.txt" file will contain all the dependancies
 COPY requirements.txt .
 
 # install dependencies
